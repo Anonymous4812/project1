@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins&display=swap');
+body{
+  font-family: 'Comic Neue', cursive;
+  background: linear-gradient(rgb(255, 130, 255),pink);
+  height: 100vh;
+}
+/*
+form{
+padding-left: 30%;
+}*/
+label{
+  /*width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: none;
+	border-radius: 4px;
+	box-sizing: border-box;
+	outline: none;
+	background: #dad9d9;
+  */
+  color: deeppink;
+  font-size: 25px;
+  text-align: center;
+}
+input[type=submit]{
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(210, 77, 210);
+  display: block;
+}
+#subcen{
+  padding-left: 40%;
+}
+
+div {
+  border: 20px brown;
+  width: 700px;
+  padding: 50px;
+  margin: 20px;
+}
+.center form{
+  border: none;
+}
+.center {
+  background-color: #fff;
+	border-radius: 10px;
+  width: 28rem;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  /*border: 20px brown;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;*/
+}
+
+button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 100%;
+			/*display: block;
+			background-color: rgb(63, 63, 63);
+			color: whitesmoke;
+			padding: 10px 20px;
+			margin: 8px 0;
+			border: none;
+			font-size: large;
+			font-weight: bold;\
+			text-decoration: none;*/
+}
+
+h1{
+  text-align: center;
+  color: deeppink;
+}
+
+img.flames {
+  border-radius: 50%;
+}
+input[type=text]{
+  width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: none;
+	border-radius: 4px;
+	box-sizing: border-box;
+	outline: none;
+	background: #dad9d9;
+}
+input:hover{
+  background-color: #eae9e9;
+}
+input[type=submit]:hover{
+  background-color: rgb(255, 130, 255);
+}
+input ::placeholder{
+  background-color: black;
+}
